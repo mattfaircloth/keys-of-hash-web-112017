@@ -2,7 +2,7 @@ class Hash
   def keys_of(*arguments)
     final = []
     arguments.each do |animal, country|
-       if arguments == country
+       if arguments.include?(country) == true
          final << animal
        else
          nil
