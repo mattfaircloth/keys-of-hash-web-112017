@@ -2,7 +2,7 @@ class Hash
   def keys_of(*arguments)
     final = []
     arguments.each do |key, value|
-      final << key[value]
+      puts key
     end
     return final
   end
