@@ -1,6 +1,6 @@
 
 class Hash
-  def keys_of(*args)
-    map {|animal, country| args.include?(country) ? animal : nil }
+  def keys_of(*arguments)
+    map {|animal, country| argumentss.include?(country) ? animal : nil }.collect
   end
 end
